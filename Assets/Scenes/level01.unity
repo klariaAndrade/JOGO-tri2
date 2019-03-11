@@ -288,6 +288,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedFactor: 10
+  LimitTop: 4.4
+  LimitBottom: -4.4
+  LimitLeft: -8.2
+  LimitRight: 8.2
 --- !u!95 &1696739677
 Animator:
   serializedVersion: 3
