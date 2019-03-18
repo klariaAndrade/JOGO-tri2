@@ -45,6 +45,7 @@ public class SimpleMove : MonoBehaviour
         if (transform.position.x < LimitLeft){
             transform.position = new Vector3 (LimitLeft, transform.position.y, transform.position.z);
         }
+        
 
     }
 
