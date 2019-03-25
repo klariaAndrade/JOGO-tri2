@@ -14,10 +14,10 @@ TagManager:
   - 
   - 
   - player
-  - camera
   - enemies
   - collectibles
   - plataforms
+  - camera
   - 
   - 
   - 
