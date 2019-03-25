@@ -190,6 +190,9 @@ GameObject:
   - component: {fileID: 332037298}
   - component: {fileID: 332037300}
   - component: {fileID: 332037299}
+  - component: {fileID: 332037301}
+  - component: {fileID: 332037303}
+  - component: {fileID: 332037302}
   m_Layer: 0
   m_Name: platforms-tilemap
   m_TagString: Untagged
@@ -865,6 +868,106 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!50 &332037301
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332037297}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!19719996 &332037302
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332037297}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+--- !u!66 &332037303
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332037297}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 332037302}
+    m_ColliderPaths:
+    - - X: 120000000
+        Y: 50000000
+      - X: 90000000
+        Y: 50000000
+      - X: 90000000
+        Y: 10000000
+      - X: 60000000
+        Y: 10000000
+      - X: 60000000
+        Y: 0
+      - X: 120000000
+        Y: 0
+    - - X: 10000000
+        Y: -10000000
+      - X: -20000000
+        Y: -10000000
+      - X: -20000000
+        Y: -50000000
+      - X: 10000000
+        Y: -50000000
+    - - X: 140000000
+        Y: -10000000
+      - X: 40000000
+        Y: -10000000
+      - X: 40000000
+        Y: -40000000
+      - X: 140000000
+        Y: -40000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 12, y: 5}
+      - {x: 9, y: 5}
+      - {x: 9, y: 1}
+      - {x: 6, y: 1}
+      - {x: 6, y: 0}
+      - {x: 12, y: 0}
+    - - {x: 1, y: -1}
+      - {x: -2, y: -1}
+      - {x: -2, y: -5}
+      - {x: 1, y: -5}
+    - - {x: 14, y: -1}
+      - {x: 4, y: -1}
+      - {x: 4, y: -4}
+      - {x: 14, y: -4}
+  m_VertexDistance: 0.0005
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,6 +1219,8 @@ GameObject:
   - component: {fileID: 1696739675}
   - component: {fileID: 1696739674}
   - component: {fileID: 1696739676}
+  - component: {fileID: 1696739677}
+  - component: {fileID: 1696739678}
   m_Layer: 0
   m_Name: bird
   m_TagString: Untagged
@@ -1202,6 +1307,43 @@ MonoBehaviour:
   LimitBottom: -4.4
   LimitLeft: -8.2
   LimitRight: 8.2
+--- !u!50 &1696739677
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696739673}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!70 &1696739678
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696739673}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.039632857, y: -0.039633036}
+  m_Size: {x: 1.005781, y: 1.0057812}
+  m_Direction: 0
 --- !u!1 &1763916478
 GameObject:
   m_ObjectHideFlags: 0
