@@ -3495,7 +3495,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'x 0
+  m_Text: 'x 1
 
 '
 --- !u!222 &591745300
@@ -5194,6 +5194,7 @@ GameObject:
   - component: {fileID: 2080809952}
   - component: {fileID: 2080809954}
   - component: {fileID: 2080809955}
+  - component: {fileID: 2080809956}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -5211,6 +5212,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 96341a6f7f0ce2f4fb5d8476fe29bc51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   TapeSpeed: {x: -2, y: 0, z: 0}
@@ -5262,6 +5269,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSFX:
     coinPickup: {fileID: 8300000, guid: 79210c803a37e194db71b911f0dabb55, type: 3}
+--- !u!114 &2080809956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080809951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77dc5856d5b54e49b71bf7c0b16d949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TapeSpeed: {x: -3, y: 0, z: 0}
+  Tape: {fileID: 238968182}
+  uicomponents:
+    hud:
+      txtCoinCount: {fileID: 274665771}
+      txtLifeCount: {fileID: 0}
+      panelHud: {fileID: 1777958576}
 --- !u!1 &2139001448
 GameObject:
   m_ObjectHideFlags: 0
