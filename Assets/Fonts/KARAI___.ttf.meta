@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 87eb2c4cd1165bb46b836d3efaf35c11
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Karatula
+  fontNames:
+  - Karatula
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b5b9c64646aaecc489eafd29a7c7ebdf, type: 3}
+  - {fileID: 12800000, guid: 256b1598f998bdd4ca0c347304625834, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
