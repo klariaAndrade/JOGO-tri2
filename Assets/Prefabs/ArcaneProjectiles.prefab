@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 321798072165732649}
   - component: {fileID: 1950488092739353933}
   - component: {fileID: 3215469817067387168}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ArcaneProjectiles
   m_TagString: Projectile
   m_Icon: {fileID: 0}
