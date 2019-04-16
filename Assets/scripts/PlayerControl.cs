@@ -13,18 +13,30 @@ public class PlayerControl : MonoBehaviour
                Destroy(other.gameObject);
                LevelManager.instance.IncrementCoinCount();
            }
+           if (other.gameObject.CompareTag("Gift"))
+           {
+               StopMusicAndTape();
+               Destroy(other.gameObject);
+               AudioManager.instance.PlaySoundLevelComplete(gameObject);
+               Destroy(gameObject);
+               LevelManager.instance.ShowLevelComplete();
+           }
            else if(other.gameObject.layer == LayerMask.NameToLayer("enemies")){
                KillPlayer();
            }
            else if(other.gameObject.layer == LayerMask.NameToLayer("forbidden")){
                KillPlayer();
            }
-           void KillPlayer() {
+           void StopMusicAndTape(){
                Camera.main.GetComponentInChildren<AudioSource>().mute = true;
                LevelManager.instance.SetTapeSpeed(0);
+           }
+           void KillPlayer() {
+               StopMusicAndTape();
                AudioManager.instance.PlaySoundFail(gameObject);
                SFXManager.instance.ShowDieParticles(gameObject);
                Destroy(gameObject);
+               LevelManager.instance.ShowGameOverPanel();
            }
        }
 }
