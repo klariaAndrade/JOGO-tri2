@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveByRigidBody : MonoBehaviour
+public class Level02MoveByRigidBody : MonoBehaviour
 {
    [SerializeField]
     private float SpeedFactor = 10f;

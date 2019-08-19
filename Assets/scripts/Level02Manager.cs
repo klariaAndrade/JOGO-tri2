@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-public class LevelManager : MonoBehaviour
+public class Level02Manager : MonoBehaviour
 {
-    public static LevelManager instance = null;
+    public static Level02Manager instance = null;
     [SerializeField]
     private Vector3 TapeSpeed = new Vector3 (-2f, 0f, 0f);
     [SerializeField]
     private Transform Tape = null;
 
-    public UIComponents uicomponents;
-    SceneData sceneData = new SceneData();
+    public Level02UIComponents uicomponents;
+    Level02SceneData sceneData = new Level02SceneData();
     void Awake()
     {
         Assert.IsNotNull(Tape);

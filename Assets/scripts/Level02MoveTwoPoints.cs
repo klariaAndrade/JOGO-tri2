@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveTwoPoints : MonoBehaviour
+public class Level02MoveTwoPoints : MonoBehaviour
 {
     public GameObject obj;
     public Transform pos1, pos2;

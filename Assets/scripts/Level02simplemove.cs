@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class simplemove : MonoBehaviour
+public class Level02simplemove : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Penguincontrol : MonoBehaviour
+public class Level02PlayerControl : MonoBehaviour
 {   
 
        void OnTriggerEnter2D(Collider2D other){
@@ -11,7 +11,7 @@ public class Penguincontrol : MonoBehaviour
                SFXManager.instance.ShowCoinParticles(other.gameObject);
                AudioManager.instance.PlaySoundCoinPickup(other.gameObject);
                Destroy(other.gameObject);
-               LevelManager.instance.IncrementCoinCount();
+               Level02Manager.instance.IncrementCoinCount();
            }
            else if (other.gameObject.CompareTag("Gift"))
            {
@@ -19,7 +19,10 @@ public class Penguincontrol : MonoBehaviour
                Destroy(other.gameObject);
                AudioManager.instance.PlaySoundLevelComplete(gameObject);
                Destroy(gameObject);
-               LevelManager.instance.ShowLevelComplete();
+               Level02Manager.instance.ShowLevelComplete();
+           }
+           else if(other.gameObject.layer == LayerMask.NameToLayer("enemies")){
+               KillPlayer();
            }
            else if(other.gameObject.layer == LayerMask.NameToLayer("forbidden")){
                KillPlayer();
@@ -29,13 +32,14 @@ public class Penguincontrol : MonoBehaviour
 
        void StopMusicAndTape(){
                Camera.main.GetComponentInChildren<AudioSource>().mute = true;
-               LevelManager.instance.SetTapeSpeed(0);
+               Level02Manager.instance.SetTapeSpeed(0);
            }
            void KillPlayer() {
                StopMusicAndTape();
                AudioManager.instance.PlaySoundFail(gameObject);
                SFXManager.instance.ShowDieParticles(gameObject);
                Destroy(gameObject);
-               LevelManager.instance.ShowGameOverPanel();
+               Level02Manager.instance.ShowGameOverPanel();
            }
 }
+ 

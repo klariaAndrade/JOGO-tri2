@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileSpaw : MonoBehaviour
+public class Level02ProjectileSpaw : MonoBehaviour
 {
     GameObject parent;
     public GameObject prefab;

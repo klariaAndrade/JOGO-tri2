@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 [Serializable]
 
-public class UIComponents
+public class Level02UIComponents
 {
     [Serializable]
    public class Hud 

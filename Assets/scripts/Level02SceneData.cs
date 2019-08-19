@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class SceneData 
+public class Level02SceneData 
 {
    public int coinCount = 0;
 }
