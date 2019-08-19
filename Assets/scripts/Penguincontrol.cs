@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
+public class Penguincontrol : MonoBehaviour
 {   
 
        void OnTriggerEnter2D(Collider2D other){
@@ -20,9 +20,6 @@ public class PlayerControl : MonoBehaviour
                AudioManager.instance.PlaySoundLevelComplete(gameObject);
                Destroy(gameObject);
                LevelManager.instance.ShowLevelComplete();
-           }
-           else if(other.gameObject.layer == LayerMask.NameToLayer("enemies")){
-               KillPlayer();
            }
            else if(other.gameObject.layer == LayerMask.NameToLayer("forbidden")){
                KillPlayer();
