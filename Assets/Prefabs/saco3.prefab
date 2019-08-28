@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2489538891768785990}
   - component: {fileID: 3022852072674183981}
   - component: {fileID: 465492147136563696}
+  - component: {fileID: 7093545257307819453}
   m_Layer: 0
   m_Name: saco3
   m_TagString: Untagged
@@ -99,3 +100,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &7093545257307819453
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5327292697504580521}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.061954543, y: -0.30977634}
+  m_Size: {x: 17.063538, y: 12.107182}
+  m_Direction: 1
