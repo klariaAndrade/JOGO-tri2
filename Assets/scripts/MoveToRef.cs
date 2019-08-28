@@ -37,7 +37,6 @@ public Transform refPoint;
     }
 
     void Impulse(float force) {
-        Debug.Log("Impuulse");
         rb.velocity = Vector3.zero;
         rb.AddForce(Vector3.up * force, ForceMode2D.Impulse);
        
