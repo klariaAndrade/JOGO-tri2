@@ -24,6 +24,9 @@ public class PlayerControl_oo1 : MonoBehaviour
            else if(other.gameObject.layer == LayerMask.NameToLayer("forbidden")){
                KillPlayer();
             }
+           else if(other.gameObject.layer == LayerMask.NameToLayer("enemies")){
+               KillPlayer();
+            }
         }
 
          void StopMusicAndTape()
