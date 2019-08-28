@@ -19,7 +19,6 @@ public class PatasCtrl : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("plataforms") || other.gameObject.layer == LayerMask.NameToLayer("Obstacles")) {
             script.noChao = true;
-            anim.SetInteger("state", 1);
         }
     }
 
@@ -27,7 +26,6 @@ public class PatasCtrl : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("plataforms") || other.gameObject.layer == LayerMask.NameToLayer("Obstacles")) {
             script.noChao = false;
-            anim.SetInteger("state", 2);
         }
     }
 }
