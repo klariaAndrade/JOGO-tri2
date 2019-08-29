@@ -419,6 +419,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -473,11 +478,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -6135,6 +6135,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6189,11 +6194,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -6518,6 +6518,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6572,11 +6577,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -8832,6 +8832,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8886,11 +8891,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (10)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -9577,6 +9577,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9631,11 +9636,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -10658,6 +10658,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10712,11 +10717,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -13119,6 +13119,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13173,11 +13178,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -14983,6 +14983,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15037,11 +15042,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -15560,6 +15560,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 177617703}
     m_Modifications:
+    - target: {fileID: 843141529883507809, guid: 1c285568f14ee0945b90ce626868509f,
+        type: 3}
+      propertyPath: m_Name
+      value: otronivel (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 2624001246054606504, guid: 1c285568f14ee0945b90ce626868509f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15615,11 +15620,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 843141529883507809, guid: 1c285568f14ee0945b90ce626868509f,
-        type: 3}
-      propertyPath: m_Name
-      value: otronivel (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c285568f14ee0945b90ce626868509f, type: 3}
 --- !u!1001 &1496481121
@@ -15629,6 +15629,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15683,11 +15688,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -19751,6 +19751,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19805,11 +19810,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata (9)
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -20549,6 +20549,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 177617703}
     m_Modifications:
+    - target: {fileID: 843141529883507809, guid: 1c285568f14ee0945b90ce626868509f,
+        type: 3}
+      propertyPath: m_Name
+      value: otronivel (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 2624001246054606504, guid: 1c285568f14ee0945b90ce626868509f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20603,11 +20608,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 843141529883507809, guid: 1c285568f14ee0945b90ce626868509f,
-        type: 3}
-      propertyPath: m_Name
-      value: otronivel (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c285568f14ee0945b90ce626868509f, type: 3}
@@ -21656,7 +21656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b77dc5856d5b54e49b71bf7c0b16d949, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TapeSpeed: {x: -3, y: 0, z: 0}
+  TapeSpeed: {x: -4, y: 0, z: 0}
   Tape: {fileID: 238968182}
   uicomponents:
     hud:
@@ -23197,6 +23197,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 988302820}
     m_Modifications:
+    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
+        type: 3}
+      propertyPath: m_Name
+      value: PetMata
+      objectReference: {fileID: 0}
     - target: {fileID: 4640940441246920443, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23251,11 +23256,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4640940441246920444, guid: 6e57cee39f04b8c4a9c59eb04e750473,
-        type: 3}
-      propertyPath: m_Name
-      value: PetMata
       objectReference: {fileID: 0}
     - target: {fileID: 2240501926128781691, guid: 6e57cee39f04b8c4a9c59eb04e750473,
         type: 3}
@@ -23365,6 +23365,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 177617703}
     m_Modifications:
+    - target: {fileID: 843141529883507809, guid: 1c285568f14ee0945b90ce626868509f,
+        type: 3}
+      propertyPath: m_Name
+      value: otronivel
+      objectReference: {fileID: 0}
     - target: {fileID: 2624001246054606504, guid: 1c285568f14ee0945b90ce626868509f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23419,11 +23424,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 843141529883507809, guid: 1c285568f14ee0945b90ce626868509f,
-        type: 3}
-      propertyPath: m_Name
-      value: otronivel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c285568f14ee0945b90ce626868509f, type: 3}
