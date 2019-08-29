@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 9
   m_Name: pos2
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6877051742361486217}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6877051743000057655}
@@ -103,8 +103,6 @@ MonoBehaviour:
   - {x: 0, y: -1, z: 0}
   - {x: 1, y: 0, z: 0}
   - {x: -1, y: 0, z: 0}
-  - {x: 0.7, y: 0.7, z: 0}
-  - {x: -0.7, y: -0.7, z: 0}
 --- !u!1 &6877051743248838774
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,8 +197,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 8.75, y: 18.99}
+  m_Offset: {x: -0.0000004967054, y: -0.67823935}
+  m_Size: {x: 9.4282465, y: 21.929043}
   m_Direction: 0
 --- !u!50 &2057135768929344031
 Rigidbody2D:
@@ -235,7 +233,7 @@ GameObject:
   m_Layer: 9
   m_Name: pos1
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -247,7 +245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6877051743965965209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6877051743000057655}
